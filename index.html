@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Calculadora IMC</h1>
+    <p>
+      A classificação do índice de massa corporal (IMC) ajuda a identificar a obesidade ou desnutrição em crianças,
+      adolescentes, adultos e idosos. Além de conhecer o seu IMC, a calculadora também pode mostrar quanto deve ser o
+      seu peso ideal para atingir a melhor forma corporal, melhorando assim sua qualidade de vida e garantindo sua
+      saúde. Insira seus dados na calculadora abaixo para descobrir seu valor de IMC:
+    </p>
+    <form action="/" class="form" method="POST">
+      <label for="altura">Altura</label>
+      <input type="text" id="altura" placeholder="1.73">
+      <label for="peso">Peso</label>
+      <input type="text" id="peso" placeholder="83">
+      <button type="submit" class="button">Calcular</button>
+    </form>
+      <div id="resultado">
+
+      </div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
