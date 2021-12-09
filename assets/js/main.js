@@ -1,5 +1,4 @@
-const form = document.querySelector('.form');
-
+const form = document.querySelector('#form');
 form.addEventListener('submit', function (event) {
     event.preventDefault();
     const inputAltura = event.target.querySelector('#altura');
@@ -42,22 +41,26 @@ function getImc(altura, peso) {
     return imc.toFixed(2);
 }
 
-function criarP() {
-    const p = document.createElement('p');
-    return p;
+function criarH5() {
+    const h5 = document.createElement('h5');
+    return h5;
 }
 
 function setResultado(msg, isValid) {
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = '';
-    const p = criarP();
+    const h5 = criarH5();
 
     if (isValid) {
-        p.classList.add('paragrafo-resultado');
+        h5.classList.add('titulo-resultado');
     }
     else {
-        p.classList.add('bad');
+        h5.classList.add('bad');
     }
-    p.innerHTML = msg;
-    resultado.appendChild(p);
+    h5.innerHTML = msg;
+    resultado.appendChild(h5);
+}
+
+function refreshPage(){
+    window.location.reload();
 }

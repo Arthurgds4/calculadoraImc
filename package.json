@@ -1,0 +1,23 @@
+{
+  "name": "calculadoraimc",
+  "version": "1.0.0",
+  "description": "Projeto realizado para cálculo de IMC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthurgds4/calculadoraImc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthurgds4/calculadoraImc/issues"
+  },
+  "homepage": "https://github.com/Arthurgds4/calculadoraImc#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
